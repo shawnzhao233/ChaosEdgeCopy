@@ -7,9 +7,7 @@ ScriptsOnlyBuild:
     - BackToMenu
     - Dice
     - ExitButton
-    - NetworkManagerMonopoly
     - Numbers
-    - PlayerController
     - ToGameMain
     - ToGameSet_Single
     - ToLobby
@@ -18,12 +16,6 @@ ScriptsOnlyBuild:
     - ToRoomAsHost
     - ToRoomSet
     - openTradeStation
-    Mirror.Components.dll:
-    - Mirror.NetworkTransform
-    Mirror.dll:
-    - Mirror.NetworkIdentity
-    - Mirror.NetworkManagerHUD
-    - Mirror.TelepathyTransport
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -46,6 +38,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.InputField
     - UnityEngine.UI.Mask
+    - UnityEngine.UI.Outline
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Slider
@@ -138,6 +131,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -170,11 +165,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14708}
     - Class: 115
       Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -198,6 +201,8 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -225,11 +230,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14708}
     - Class: 115
       Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -279,11 +292,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11780}
     - Class: 114
-      Script: {instanceID: 11804}
-    - Class: 114
       Script: {instanceID: 11808}
-    - Class: 114
-      Script: {instanceID: 11890}
     - Class: 114
       Script: {instanceID: 11936}
     - Class: 114
@@ -303,24 +312,24 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13442}
     - Class: 114
-      Script: {instanceID: 13662}
-    - Class: 114
-      Script: {instanceID: 13796}
-    - Class: 114
       Script: {instanceID: 14118}
-    - Class: 114
-      Script: {instanceID: 14180}
-    - Class: 114
-      Script: {instanceID: 14432}
     - Class: 114
       Script: {instanceID: 14708}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -390,6 +399,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14534}
     - Class: 114
+      Script: {instanceID: 14604}
+    - Class: 114
       Script: {instanceID: 14708}
     - Class: 115
       Script: {instanceID: 0}
@@ -430,6 +441,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -462,11 +475,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14776}
     - Class: 115
       Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -568,6 +589,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -590,11 +613,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14708}
     - Class: 115
       Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -618,6 +649,8 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -645,11 +678,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14708}
     - Class: 115
       Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -673,6 +714,8 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -710,11 +753,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14708}
     - Class: 115
       Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -2669,4 +2720,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/AIPlayerSetting(SinglePlayer).unity
   - Assets/Scenes/AIPlayerSetting(MutiPlayer).unity
   - Assets/Scenes/GameMainScene.unity
-  playerPath: C:/Users/shawn/Desktop/ChaosEdgeDemo.v0.000002/ChaosEdge.exe
+  playerPath: C:/Users/shawn/Desktop/ChaosEdgeDemo.v0.31a/ChaosEdge.exe
